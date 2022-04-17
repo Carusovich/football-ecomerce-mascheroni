@@ -1,5 +1,5 @@
-import backimg from'../images/winterBall.jpg';
-const Intro = () => {
+import backimg from '../images/winterBall.jpg';
+const ItemListContainer = (props) => {
     return (
         <div
             className="hero h-96"
@@ -11,11 +11,11 @@ const Intro = () => {
             <div className="text-center hero-content text-neutral-content">
                 <div className="w-full">
                     <h1 className="mb-6 text-5xl font-bold">
-                        Sitio en Construcción
-                    </h1>                    
+                        {props.greeting}
+                    </h1>
                 </div>
             </div>
         </div>
     );
 };
-export default Intro;
+export default ItemListContainer;

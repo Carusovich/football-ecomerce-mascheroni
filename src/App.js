@@ -1,17 +1,15 @@
 import './App.css';
 import Footer from './components/Footer';
-import Intro from './components/Intro';
+import ItemListContainer from './components/ItemListContainer';
 import NavBar from './components/NavBar';
 
 
 function App() {
   return (
     <div className="App">
-      <NavBar/>
-
-      <Intro/>
-
-      <Footer/>
+      <NavBar />
+      <ItemListContainer greeting="Sitio en Desarrollo" />
+      <Footer />
     </div>
   );
 }
