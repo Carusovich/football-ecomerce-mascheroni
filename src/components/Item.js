@@ -7,7 +7,7 @@ function Item(props) {
             <figure><img src={props.url} alt={props.alt} /></figure>
             <div class="card-body">
                 <h2 class="card-title">{props.productName}</h2>
-                <p></p>
+                <p>Solo a $ {props.price} c/u</p>
                 <div class="card-actions justify-end">
 
                 </div>
